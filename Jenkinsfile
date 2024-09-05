@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/GANWEIJIA/Java_Gradle_Responsive_Website'
+                git branch: 'master', url: 'https://github.com/GANWEIJIA/Responsive-Web'
             }
         }
         stage('Build') {
